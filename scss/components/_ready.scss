@@ -1,0 +1,94 @@
+.ready {
+    &-backg {
+        width: 365px;
+        height: 257px;
+        background: #151822;
+        border-radius: 8px;
+        margin-top: 50px;
+    }
+    &-text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 180px;
+        line-height: 109.1%;
+        color: #1d212d;
+        background: transparent;
+        margin-left: 250px;
+    }
+    &-tittle {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 43px;
+        text-align: center;
+        color: #fff;
+        margin-top: -74px;
+        margin-left: -90px;
+    }
+    &-description {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.8;
+        width: 600px;
+        height: 96px;
+        margin-top: -30px;
+        margin-left: 250px;
+    }
+    &-like1 {
+        padding-top: 15px;
+        margin-left: 30px;
+    }
+    &-step1 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.8;
+    }
+    &-line {
+        width: 263px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin-top: -16px;
+        margin-left: 100px;
+    }
+    &-like {
+        width: 200px;
+        height: 70px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    &-download {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 109.1%;
+        color: #FFFFFF;
+        padding: 0 10px;
+    }
+    &-like2 {
+        margin-top: -63px;
+        margin-left: 245px;
+    }
+    &-like3 {
+        margin-top: -30px;
+        margin-left: 100px;
+    }
+    &-like4 {
+        margin-top: -53px;
+        margin-left: 169px;
+    }
+    &-step {
+        display: flex;
+    }
+}

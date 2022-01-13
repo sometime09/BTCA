@@ -1,0 +1,86 @@
+.update {
+    &-one {
+        background: url(../../img/update.png);
+        width: 1140px;
+        height: 402px;
+        border-radius: 28px;
+        margin-top: 30px;
+    }
+    &-background {
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    &-text {
+        padding-top: 1px;
+        margin-left: -250px;
+    }
+    &-tittle {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 43px;
+        text-align: center;
+        color: #fff;
+    }
+    &-description {
+        margin-top: -50px;
+        margin-left: 54px;
+    }
+    &-descr {
+        width: 507px;
+        height: 96px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+        opacity: 0.8;
+    }
+    &-up {
+        width: 661px;
+        height: 64px;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 4px 41px rgba(0, 0, 0, 0.13);
+        backdrop-filter: blur(4px);
+        border-radius: 14px;
+    }
+    &-email {
+        background: transparent;
+        border: none;
+        outline: none;
+        color: #fff;
+        margin-top: 20px;
+        &::placeholder {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            color: #FFFFFF;
+            text-align: center;
+            margin-left: 60px;
+        }
+    }
+    &-sign {
+        background: transparent;
+        outline: none;
+        border: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+        background: #279D88;
+        box-shadow: 0px 4px 16px rgba(0, 255, 163, 0.26);
+        border-radius: 66px;
+        padding: 13px 30px;
+        margin-left: 300px;
+        &:hover {
+            background: #fff;
+            color: #279D88;
+            transition: 0.3s;
+        }
+    }
+}

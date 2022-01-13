@@ -1,0 +1,86 @@
+.blob {
+    width: 1440px;
+    height: 540px;
+    margin-top: 300px;
+    margin-left: 30px;
+    padding-top: 50px;
+    &-one {
+        background: transparent;
+    }
+    &-tittle {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 43px;
+        color: #fff;
+        background: transparent;
+        width: 351px;
+        height: 86px;
+    }
+    &-center {
+        margin-top: -40px;
+    }
+    &-description {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+        opacity: 0.8;
+        width: 420px;
+        height: 96px;
+    }
+    &-page {
+        display: flex;
+        margin-top: 40px;
+    }
+    &-page2 {
+        margin-left: 26px;
+    }
+    &-page3 {
+        margin-left: 26px;
+    }
+    &-page4 {
+        margin-left: 26px;
+    }
+    &-klick {
+        display: flex;
+        padding: 15px 15px;
+        width: 226px;
+        height: 52px;
+        background: transparent;
+        outline: none;
+        border: none;
+        background: rgba(98, 127, 227, 0.15);
+        border-radius: 12px;
+        margin-top: 40px;
+        &__apple {
+            margin-top: -3px;
+        }
+        &__download {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 22px;
+            color: #8886FF;
+            margin-left: 10px;
+        }
+    }
+    &-image {
+        display: flex;
+    }
+    &-macbook {
+        margin-top: -400px;
+        margin-left: 500px;
+    }
+    &-img1 {
+        border-radius: 30px;
+    }
+    &-img2 {
+        margin-top: -400px;
+        margin-left: -220px;
+    }
+}

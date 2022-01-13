@@ -1,0 +1,26 @@
+@import './components/header';
+@import './components/blob';
+@import './components/center';
+@import './components/info';
+@import './components/more';
+@import './components/ready';
+@import './components/row';
+@import './components/update';
+@import './components/footer';
+
+body {
+    margin: 0;
+    background: #0a0d15;
+    width: 1440px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75em
+}
+
+.main {
+    display: inline-block;
+
+}

@@ -1,0 +1,113 @@
+.header {
+    position: absolute;
+    z-index: 3;
+    box-shadow: 0px 4px 40px rgba(99, 136, 240, 0.05);
+    background: url(../../img/gradient2.png) center no-repeat;
+    background: linear-gradient(267.43deg, rgba(0, 255, 163, 0.12) 36.58%, rgba(31, 26, 255, 0.2) 80.91%);
+    width: 100%;
+    &-start {
+        display: flex;
+    }
+    &-logo {
+        padding: 13px;
+        padding:10px 5px;
+    }
+    &-language {
+        background: transparent;
+        outline: none;
+        border: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+        background: rgba(255, 255, 255, 0.15);
+        box-shadow: 0px 4px 9px rgba(176, 176, 176, 0.1);
+        backdrop-filter: blur(8px);
+        border-radius: 8px;
+        padding: 5px 10px;
+        display: flex;
+        justify-content: center;
+        padding: 6px 11px;
+    }
+    &-money {
+        background: transparent;
+        outline: none;
+        border: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+        background: rgba(255, 255, 255, 0.15);
+        box-shadow: 0px 4px 9px rgba(176, 176, 176, 0.1);
+        backdrop-filter: blur(8px);
+        border-radius: 8px;
+        padding: 5px 10px;
+        display: flex;
+        justify-content: center;
+        padding: 6px 11px;
+    }
+    &-klick {
+        padding: 15px 5px;
+        margin-left: 200px;
+    }
+    &-klick2 {
+        padding: 15px 0;
+    }
+    &-image1 {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+    &-image2 {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    &-description{
+        margin-top: 2px;
+    }
+}
+.nav {
+    margin-right: 30px;
+    padding: 4px 0;
+    &-list {
+        display: flex;
+    }
+    &-item{
+        list-style: none;
+    }
+    &-link {
+        text-decoration: none;
+        margin-top: 25px;
+        margin-left: 43px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: rgba(255, 255, 255, 0.42);
+        &:hover {
+            color: white;
+            transition: 0.3s;
+        }
+    }
+    &-link1 {
+        margin-left: 40px;
+        text-decoration: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+}
